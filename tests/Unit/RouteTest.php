@@ -1,8 +1,8 @@
 <?php
 
-namespace Appoly\MailWeb\Tests\Unit;
+namespace TalentInternational\MailWeb\Tests\Unit;
 
-use Appoly\MailWeb\Tests\MailWebTestCase;
+use TalentInternational\MailWeb\Tests\MailWebTestCase;
 use Illuminate\Foundation\Auth\User;
 
 class RouteTest extends MailWebTestCase

@@ -1,6 +1,6 @@
 <?php
 
-namespace Appoly\MailWeb\Facades;
+namespace TalentInternational\MailWeb\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

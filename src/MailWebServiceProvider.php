@@ -1,11 +1,11 @@
 <?php
 
-namespace Appoly\MailWeb;
+namespace TalentInternational\MailWeb;
 
 
-use Appoly\MailWeb\Facades\MailWeb;
+use TalentInternational\MailWeb\Facades\MailWeb;
 use Illuminate\Support\ServiceProvider;
-use Appoly\MailWeb\Providers\MessageServiceProvider;
+use TalentInternational\MailWeb\Providers\MessageServiceProvider;
 
 class MailWebServiceProvider extends ServiceProvider
 {
@@ -52,8 +52,8 @@ class MailWebServiceProvider extends ServiceProvider
         $router = $this->app['router'];
 
         $router->macro('mailweb', function () use ($router) {
-            $router->get('/mailweb', '\Appoly\MailWeb\Http\Controllers\MailWebController@index')->name('mailweb.index');
-            $router->get('/mailweb/emails', '\Appoly\MailWeb\Http\Controllers\MailWebController@get');
+            $router->get('/mailweb', '\TalentInternational\MailWeb\Http\Controllers\MailWebController@index')->name('mailweb.index');
+            $router->get('/mailweb/emails', '\TalentInternational\MailWeb\Http\Controllers\MailWebController@get');
         });
     }
 }

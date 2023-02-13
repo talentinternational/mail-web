@@ -1,6 +1,6 @@
 <?php
 
-namespace Appoly\MailWeb\Http\Models;
+namespace TalentInternational\MailWeb\Http\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Appoly\MailWeb\Tests;
+namespace TalentInternational\MailWeb\Tests;
 
 use Illuminate\Database\Eloquent\Factory;
 use Orchestra\Testbench\TestCase;

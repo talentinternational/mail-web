@@ -1,5 +1,5 @@
 {
-    "name": "appoly/mail-web",
+    "name": "talentinternational/mail-web",
     "description": "Catch your outgoing emails within your project making it easier to test and share",
     "license": "MIT",
     "authors": [
@@ -10,12 +10,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Appoly\\MailWeb\\": "src"
+            "TalentInternational\\MailWeb\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Appoly\\MailWeb\\Tests\\": "tests"
+            "TalentInternational\\MailWeb\\Tests\\": "tests"
         }
     },
     "require": {
@@ -29,10 +29,10 @@
      "extra": {
         "laravel": {
             "providers": [
-                "Appoly\\MailWeb\\MailWebServiceProvider"
+                "TalentInternational\\MailWeb\\MailWebServiceProvider"
             ],
             "aliases": {
-                "MailWeb": "Appoly\\MailWeb\\MailWebFacade"
+                "MailWeb": "TalentInternational\\MailWeb\\MailWebFacade"
             }
         }
     },

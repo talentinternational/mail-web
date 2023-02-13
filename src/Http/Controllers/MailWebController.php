@@ -1,8 +1,8 @@
 <?php
 
-namespace Appoly\MailWeb\Http\Controllers;
+namespace TalentInternational\MailWeb\Http\Controllers;
 
-use Appoly\MailWeb\Http\Models\MailwebEmail;
+use TalentInternational\MailWeb\Http\Models\MailwebEmail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 
