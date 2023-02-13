@@ -1,8 +1,8 @@
 <?php
 
-namespace Appoly\MailWeb\Http\Listeners;
+namespace TalentInternational\MailWeb\Http\Listeners;
 
-use Appoly\MailWeb\Http\Models\MailwebEmail;
+use TalentInternational\MailWeb\Http\Models\MailwebEmail;
 use Illuminate\Mail\Events\MessageSending;
 
 class MailWebListener
