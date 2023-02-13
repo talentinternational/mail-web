@@ -3,6 +3,7 @@
 namespace Appoly\MailWeb\Http\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Builder;
 
 class MailwebEmail extends Model
 {
@@ -19,6 +20,13 @@ class MailwebEmail extends Model
     protected $dates = [
         'created_at'
     ];
+
+    protected static function booted()
+    {
+        static::addGlobalScope('symfony', function (Builder $builder) {
+            $builder->where('email', 'NOT LIKE', 'O:13:"Swift_Message"%');
+        });
+    }
 
     public function getEmailAttribute($value)
     {
